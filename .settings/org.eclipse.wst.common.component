@@ -3,6 +3,7 @@
     <wb-module deploy-name="controladorExames">
         <wb-resource deploy-path="/" source-path="/WebContent"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/teste"/>
         <property name="context-root" value="controladorExames"/>
         <property name="java-output-path"/>
     </wb-module>

@@ -8,7 +8,7 @@ public class Conexao {
 	private static Conexao conexao;
 	private Connection con;
 	
-	public static Conexao getInstance(){
+	public static Conexao getInstancia(){
 		if(conexao == null){
 			conexao = new Conexao();
 		}
